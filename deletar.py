@@ -13,9 +13,9 @@ def deletar(): #função para deletar moto (entidade)
             motos.remove(moto) #se existir, remove a moto inteira
             salvarDados(motos)  #chama a função salvarDados
 
-    os.system("clear" if os.name == "posix" else "cls")
+    os.system("clear" if os.name == "posix" else "cls") #apaga o terminal (limpa)
     print(10 * '-=-')
     print('Moto Deletada!!')
     print(10 * '-=-')
-    input("Pressione ENTER para continuar...")
-    os.system("clear" if os.name == "posix" else "cls")
+    input("Pressione ENTER para continuar...") #pausa o programa até que o usuario clique em enter
+    os.system("clear" if os.name == "posix" else "cls") #apaga o terminal (limpa)

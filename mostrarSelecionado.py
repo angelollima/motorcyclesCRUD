@@ -21,5 +21,5 @@ def mostrarSelecionado(): #função para mostrar apenas uma moto por vez
             print(f'Pneu: {moto["pneu"]}')
 
             print(10 * '-=-')
-    input("Pressione ENTER para continuar...")
-    os.system("clear" if os.name == "posix" else "cls")
+    input("Pressione ENTER para continuar...") #pausa o programa até que o usuario clique em enter
+    os.system("clear" if os.name == "posix" else "cls") #apaga o terminal
